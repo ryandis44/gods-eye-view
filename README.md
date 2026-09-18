@@ -135,6 +135,12 @@ See [docs/PERFORMANCE.md](docs/PERFORMANCE.md).
 **macOS shortcut:** `./scripts/dev-fresh.sh` clears the Vite cache and pulls any
 configured keys straight from the Keychain. It starts keyless too.
 
+### Container deployment
+
+Build locally with Docker or publish an image to GHCR by pushing a `v*` tag.
+See [Container deployment](docs/CONTAINERS.md) for run commands, optional
+credentials, and GitHub Actions configuration.
+
 ### Then power it up — in the app, not in a file
 
 Keys are upgrades, not prerequisites. When you want one, click the **POWER UP**
